@@ -9,7 +9,8 @@ function calcularBhaskara(a,b,c){
       console.log('O valor de x1 é: ' + x1 + '. O valor de x2 é: ' + x2);
     }
     else if(delta == 0){
-      console.log('Só há uma raiz.');
+      let x1 = (-b + Math.sqrt(delta))/2*a;
+      console.log('Só há uma raiz.' + x1);
     }
     else{
         console.log('Não há raízes reais.')
