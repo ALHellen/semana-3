@@ -11,11 +11,11 @@ else if(operacao == 'menos'){
 let resultado = 4 - 2;
 console.log('O resultado da subtração é: ' + resultado);
 }
-else if(operacao == 'multiplicação'){
+else if(operacao == 'multiplicacao'){
 let resultado = 4 * 2;
 console.log('O resultado da multiplicação é: ' + resultado);
 }
-else if(operacao == 'divisão'){
+else if(operacao == 'divisao'){
 let resultado = 4 / 2;
 console.log('O resultado da divisão é: ' + resultado);
 }
